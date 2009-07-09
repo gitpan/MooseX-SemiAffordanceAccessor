@@ -15,20 +15,20 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 78fc95c3d53b62fd626f0badcf814099bc72c73f Build.PL
-SHA1 5c27f1ceb729bf222ac99f7f16840e50735db21f Changes
+SHA1 3c3e5e5936be3ddee3a85ac0f4e1ab24b470f06b Changes
 SHA1 62cc78a0dacd69ba1788ed81e17f98b1814dd076 MANIFEST
-SHA1 05c68f37ad0fdbd7dc5c15a92ff54c9d953d8a23 META.yml
-SHA1 cd14ada78fb37a0d926edd86eddcdf7f939de582 Makefile.PL
-SHA1 f84260ebc6b22dbf4b272741c34e4b9a7264d729 README
-SHA1 5507c702ba99de1eaa92af2fc139a00f68bb62c1 lib/MooseX/SemiAffordanceAccessor.pm
-SHA1 61d394f1a15bf2f1ae8ec3509756dd42364d4f0c lib/MooseX/SemiAffordanceAccessor/Role/Attribute.pm
-SHA1 f341573921f6e86b4cf227d1dfe75f75b469b8c4 t/basic.t
-SHA1 1e31329479c8a8c8d4c4de1382e89dc8c85ea68b t/pod-coverage.t
-SHA1 cec881e89926d320475f9de2b7fad02c2169f510 t/pod.t
+SHA1 705da2e3e4ec814ead7f1f1e8eace7706f611178 META.yml
+SHA1 f44a610f611cc4333f9a9b52873bc5a35fb7ffb3 Makefile.PL
+SHA1 74b93c3cc06b835c9dff321adddb7021886990c4 README
+SHA1 62e2a8da88598c0f9cf4a17996889bd020bdd47d lib/MooseX/SemiAffordanceAccessor.pm
+SHA1 846db0cf97ea1c8a81b2c75bf56355338b9f6829 lib/MooseX/SemiAffordanceAccessor/Role/Attribute.pm
+SHA1 a85e72be1c379c704478b97357c80d2d99ba4753 t/basic.t
+SHA1 f3fba045fd37191b8d320fd560736065f72c8a99 t/pod-coverage.t
+SHA1 d1ff551e8c5994f38860cbc8b16103139e307996 t/pod.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.6 (GNU/Linux)
+Version: GnuPG v1.4.9 (GNU/Linux)
 
-iD8DBQFIuho53Or3ZzQuifMRAor+AJ42ueoJTUxP7bjSjcCm4db0CvlIbACg4HBK
-YkUulzuXtoyBOVS7MSAXogI=
-=XUUS
+iEYEARECAAYFAkpV3tcACgkQIgMCsV8qvRILAQCeIz6Srfi8PStUL7Vp02O0kW7V
+tIQAnAhnf5DcOswHKiHInTNFhZvEhVbG
+=DGyK
 -----END PGP SIGNATURE-----

@@ -23,12 +23,12 @@ DESCRIPTION
     module.
 
 AUTHOR
-    Dave Rolsky, "<autarch@urth.org>"
+    Dave Rolsky, `<autarch@urth.org>'
 
 BUGS
     Please report any bugs or feature requests to
-    "bug-moosex-semiaffordanceaccessor@rt.cpan.org", or through the web
-    interface at <http://rt.cpan.org>. I will be notified, and then you'll
+    `bug-moosex-semiaffordanceaccessor@rt.cpan.org', or through the web
+    interface at http://rt.cpan.org. I will be notified, and then you'll
     automatically be notified of progress on your bug as I make changes.
 
 COPYRIGHT & LICENSE
