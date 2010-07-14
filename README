@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution MooseX-SemiAffordanceAccessor,
-version 0.06:
+version 0.07:
 
   Name your accessors foo() and set_foo()
 

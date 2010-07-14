@@ -1,6 +1,6 @@
 package MooseX::SemiAffordanceAccessor;
 BEGIN {
-  $MooseX::SemiAffordanceAccessor::VERSION = '0.06';
+  $MooseX::SemiAffordanceAccessor::VERSION = '0.07';
 }
 
 use strict;
@@ -31,7 +31,7 @@ MooseX::SemiAffordanceAccessor - Name your accessors foo() and set_foo()
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 SYNOPSIS
 
