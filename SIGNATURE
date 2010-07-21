@@ -14,17 +14,17 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 2272bb9ba4bd6e05ff784c0bfea6bbc67cc2acae Changes
+SHA1 d83f329c7b3020b4b8e45e3549e0ef4a32aa7d19 Changes
 SHA1 1e548c86fd3635cd47dd181269b2a8e0c37eeb77 INSTALL
 SHA1 23c628b4a8a36738405ccdacaeb912d2e727b4c0 LICENSE
 SHA1 d100a67dc6e57060c1bff34cdef0a7dda097090b MANIFEST
-SHA1 279f32ccd3a6a4826d2ad5a72f7aa13d8c7d97a1 META.json
-SHA1 244bcad6bb8435fc8b5992b49691b0c30af2ccf8 META.yml
-SHA1 865d37764cb049c1e18477c56a342fdcf0b9eb0b Makefile.PL
-SHA1 1457c5ef31683f197af93f5374efd953e623a35f README
-SHA1 f185d68918bf463542b1be4a40e083450e951e36 dist.ini
-SHA1 bbdf29f277c4b7914a224a5764d816c88d8f88c2 lib/MooseX/SemiAffordanceAccessor.pm
-SHA1 4679e43a9e460097174d62fe9cb0ee8dd38b10a6 lib/MooseX/SemiAffordanceAccessor/Role/Attribute.pm
+SHA1 624fd33e13097bf39a1b8e52b41b980eefead66f META.json
+SHA1 bfb78a02514a9026e8fa45efe83dc3e7c101bf9d META.yml
+SHA1 e8ce143117d3f6e185b5aa6953f8624f69bf89b3 Makefile.PL
+SHA1 ac13545781e43efadd07b7d8e11ddbaf8c541ae4 README
+SHA1 d0542aaf8115edb859d7ee7993294df890275d56 dist.ini
+SHA1 c5259421e06d5d83b0e79c40f5776f69f25a3e97 lib/MooseX/SemiAffordanceAccessor.pm
+SHA1 84d3a26d33ef68f049d4b3dfb21c0ab0fc0d6f5c lib/MooseX/SemiAffordanceAccessor/Role/Attribute.pm
 SHA1 83e847e61c6555edf9e0db8457521284aeb626f5 t/basic.t
 SHA1 24b525e3c18f37f8022a01ec30de757cefb679ff t/release-eol.t
 SHA1 961a1e2c92d836c8cad2d34b784cbc75345dec63 t/release-kwalitee.t
@@ -35,7 +35,7 @@ SHA1 9775e90d40f094f3e5a23c695d6e6e436a2232c3 t/release-pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkw+IJAACgkQIgMCsV8qvRKdRACbBr5e1SrH29ed3ceLk9w9Z8jE
-oroAn1UZfYnCdolO3DgxzIRVodd/iJh2
-=0EF5
+iEYEARECAAYFAkxGPgIACgkQIgMCsV8qvRK2+wCbBXgnvDv6o5JBg/zsyxtOvt+l
+LEwAn1WEYk1IphkVwVnJW5XxBUb2PeLJ
+=VIMD
 -----END PGP SIGNATURE-----

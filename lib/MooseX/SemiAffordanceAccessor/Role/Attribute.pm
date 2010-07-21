@@ -1,6 +1,6 @@
 package MooseX::SemiAffordanceAccessor::Role::Attribute;
 BEGIN {
-  $MooseX::SemiAffordanceAccessor::Role::Attribute::VERSION = '0.07';
+  $MooseX::SemiAffordanceAccessor::Role::Attribute::VERSION = '0.08';
 }
 
 use strict;
@@ -48,7 +48,7 @@ MooseX::SemiAffordanceAccessor::Role::Attribute
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 
