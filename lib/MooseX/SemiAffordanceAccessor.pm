@@ -1,6 +1,6 @@
 package MooseX::SemiAffordanceAccessor;
 BEGIN {
-  $MooseX::SemiAffordanceAccessor::VERSION = '0.08';
+  $MooseX::SemiAffordanceAccessor::VERSION = '0.09';
 }
 
 use strict;
@@ -11,11 +11,17 @@ use Moose::Exporter;
 use Moose::Util::MetaRole;
 use MooseX::SemiAffordanceAccessor::Role::Attribute;
 
-Moose::Exporter->setup_import_methods(
+my %metaroles = (
     class_metaroles => {
         attribute => ['MooseX::SemiAffordanceAccessor::Role::Attribute'],
     },
 );
+
+$metaroles{role_metaroles} = {
+    applied_attribute => ['MooseX::SemiAffordanceAccessor::Role::Attribute'],
+} if $Moose::VERSION >= 1.9900;
+
+Moose::Exporter->setup_import_methods(%metaroles);
 
 1;
 
@@ -31,7 +37,7 @@ MooseX::SemiAffordanceAccessor - Name your accessors foo() and set_foo()
 
 =head1 VERSION
 
-version 0.08
+version 0.09
 
 =head1 SYNOPSIS
 
@@ -56,6 +62,19 @@ attribute, then that attribute's naming scheme is left unchanged.
 The name "semi-affordance" comes from David Wheeler's Class::Meta
 module.
 
+=head1 ACCESSORS IN ROLES
+
+Prior to version 1.9900 of L<Moose>, attributes added to a class ended up with
+that class's attribute traits. That means that if your class used
+C<MooseX::SemiAffordanceAccessor>, any attributes provided by roles you
+consumed had the semi-affordance style of accessor.
+
+As of Moose 1.9900, that is no longer the case. Attributes provided by roles
+no longer acquire the consuming class's attribute traits. However, with Moose
+1.9900+, you can now use C<MooseX::SemiAffordanceAccessor> directly in
+roles. Attributes defined by that role will have semi-affordance style
+accessors, regardless of what attribute traits the consuming class has.
+
 =head1 BUGS
 
 Please report any bugs or feature requests to
@@ -66,15 +85,15 @@ make changes.
 
 =head1 AUTHOR
 
-  Dave Rolsky <autarch@urth.org>
+Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2010 by Dave Rolsky.
+This software is Copyright (c) 2011 by Dave Rolsky.
 
 This is free software, licensed under:
 
-  The Artistic License 2.0
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut
 

@@ -22,9 +22,9 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'artistic_2',
   'NAME' => 'MooseX::SemiAffordanceAccessor',
   'PREREQ_PM' => {
-    'Moose' => '0.94'
+    'Moose' => '1.16'
   },
-  'VERSION' => '0.08',
+  'VERSION' => '0.09',
   'test' => {
     'TESTS' => 't/*.t'
   }

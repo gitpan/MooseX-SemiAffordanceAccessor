@@ -1,6 +1,6 @@
 package MooseX::SemiAffordanceAccessor::Role::Attribute;
 BEGIN {
-  $MooseX::SemiAffordanceAccessor::Role::Attribute::VERSION = '0.08';
+  $MooseX::SemiAffordanceAccessor::Role::Attribute::VERSION = '0.09';
 }
 
 use strict;
@@ -48,7 +48,7 @@ MooseX::SemiAffordanceAccessor::Role::Attribute
 
 =head1 VERSION
 
-version 0.08
+version 0.09
 
 =head1 SYNOPSIS
 
@@ -66,15 +66,15 @@ follow the semi-affordance naming style.
 
 =head1 AUTHOR
 
-  Dave Rolsky <autarch@urth.org>
+Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2010 by Dave Rolsky.
+This software is Copyright (c) 2011 by Dave Rolsky.
 
 This is free software, licensed under:
 
-  The Artistic License 2.0
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut
 
